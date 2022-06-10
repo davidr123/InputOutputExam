@@ -1,0 +1,10 @@
+
+<h1>Componente Home</h1>
+
+{{nombre}}
+
+<button class="btn btn-primary" (click)="AgregarNombre()">Boton</button>
+
+<hr>
+
+<app-hijo [nombreHijo]="nombre" (cambioNombreHijo)="nombre =$event"  ></app-hijo>
